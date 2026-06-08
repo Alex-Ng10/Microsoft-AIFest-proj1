@@ -77,6 +77,25 @@
           "type": "txt"
         }
       ]
+    },
+    {
+      "id": "single-endpoint-crud-fastapi",
+      "title": "Single-Endpoint CRUD with FastAPI",
+      "description": "Implement a small POST/GET endpoint with validation, suitable for a 30m in-class exercise.",
+      "path": "assignments/single-endpoint-crud-fastapi",
+      "dueDate": "2026-06-15",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Requirements",
+          "file": "requirements.txt",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }
