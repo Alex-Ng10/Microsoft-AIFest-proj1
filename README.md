@@ -1,33 +1,50 @@
-<div align="center">
+# Portfolio — Microsoft-AIFest-proj1
 
-# 🎉 Congratulations Alex-Ng10! 🎉
+Ce dépôt rassemble une sélection de petits projets et exercices conçus pour servir de portfolio technique à inclure sur un CV. Il montre des compétences pratiques en Python, développement web et création d'API.
 
-<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
+**Objectif**: présenter des travaux concrets et réutilisables pour démontrer mes compétences auprès de recruteurs.
 
-### 🌟 You've successfully completed the exercise! 🌟
+**Auteur**: Alex Ng
 
-## 🚀 Share Your Success!
+--
 
-**Show off your new skills and inspire others!**
+## Contenu
+- `assignments/` : exercices et projets (ex. data-analysis, fastapi-rest-apis, games-in-python, python-basics, python-classes, single-endpoint-crud-fastapi).
+- `templates/` : modèles pour créer de nouvelles fiches d'exercice.
+- `assets/`, `index.html` : site statique pour naviguer et prévisualiser les assignments.
 
-<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Customize%20Your%20GitHub%20Copilot%20Experience%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FAlex-Ng10%2FMicrosoft-AIFest-proj1%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
-</a>
-<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Customize%20Your%20GitHub%20Copilot%20Experience%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FAlex-Ng10%2FMicrosoft-AIFest-proj1%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
-</a>
-<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Customize%20Your%20GitHub%20Copilot%20Experience%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FAlex-Ng10%2FMicrosoft-AIFest-proj1%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
-</a>
+## Voir le portfolio localement
+1. Cloner le dépôt:
 
-### 🎯 What's Next?
+```
+git clone https://github.com/Alex-Ng10/Microsoft-AIFest-proj1.git
+cd Microsoft-AIFest-proj1
+```
+2. Lancer un serveur local (ex. Python):
 
-**Keep the momentum going!**
+```
+python3 -m http.server 8000
+# puis ouvrir http://localhost:8000 dans votre navigateur
+```
 
-[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/Alex-Ng10/Microsoft-AIFest-proj1/issues/1)
-[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills)
+3. Ouvrir `index.html` pour naviguer dans les assignments.
 
-*There's no better way to learn than building things!* 🚀
+## Utilisation dans un CV
+- Inclure un lien vers le dépôt GitHub et, si souhaité, pointer vers des dossiers spécifiques (ex. `assignments/data-analysis`).
+- Ajouter une courte phrase sur les technologies utilisées (Python, FastAPI, HTML/CSS, JavaScript).
 
-</div>
+## Prochaines étapes recommandées
+- Ajouter des fichiers `README.md` individuels par assignment avec objectifs, difficulté et instructions d'exécution.
+- Ajouter des captures d'écran dans `assets/images/` pour illustrer chaque projet.
+
+## Licence
+Ce projet contient un fichier `LICENSE` (MIT).
+
+---
+
+Si vous voulez, je peux :
+- committer et pousser la modification pour vous,
+- ajouter des README par assignment,
+- ou générer des badges et captures d'écran.
+
 
