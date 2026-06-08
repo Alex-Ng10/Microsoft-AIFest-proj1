@@ -1,50 +1,38 @@
-# Portfolio — Microsoft-AIFest-proj1
+# Microsoft-AIFest-proj1 — Example Projects and Exercises
 
-Ce dépôt rassemble une sélection de petits projets et exercices conçus pour servir de portfolio technique à inclure sur un CV. Il montre des compétences pratiques en Python, développement web et création d'API.
+This repository contains a set of small projects and exercises demonstrating practical skills in Python, web development, and API creation. The content is organized for exploration, learning, and reuse: each assignment includes starter code and instructions.
 
-**Objectif**: présenter des travaux concrets et réutilisables pour démontrer mes compétences auprès de recruteurs.
+**Author**: Alex Ng
 
-**Auteur**: Alex Ng
 
---
+## Contents
+- `assignments/`: exercises and projects (e.g. data-analysis, fastapi-rest-apis, games-in-python, python-basics, python-classes, single-endpoint-crud-fastapi).
+- `templates/`: templates for creating new assignment pages.
+- `assets/`, `index.html`: static site for browsing and previewing the assignments.
 
-## Contenu
-- `assignments/` : exercices et projets (ex. data-analysis, fastapi-rest-apis, games-in-python, python-basics, python-classes, single-endpoint-crud-fastapi).
-- `templates/` : modèles pour créer de nouvelles fiches d'exercice.
-- `assets/`, `index.html` : site statique pour naviguer et prévisualiser les assignments.
-
-## Voir le portfolio localement
-1. Cloner le dépôt:
+## How to use / Run locally
+1. Clone the repository:
 
 ```
 git clone https://github.com/Alex-Ng10/Microsoft-AIFest-proj1.git
 cd Microsoft-AIFest-proj1
 ```
-2. Lancer un serveur local (ex. Python):
+2. Start a local server to preview the static site (optional):
 
 ```
 python3 -m http.server 8000
-# puis ouvrir http://localhost:8000 dans votre navigateur
+# then open http://localhost:8000 in your browser
 ```
 
-3. Ouvrir `index.html` pour naviguer dans les assignments.
+3. Browse the work:
+- Open `index.html` to preview the site and navigate assignments.
+- Inspect folders under `assignments/` for starter code and task descriptions.
+- To run Python examples, use a virtual environment and run the included `starter-code.py` files, for example:
 
-## Utilisation dans un CV
-- Inclure un lien vers le dépôt GitHub et, si souhaité, pointer vers des dossiers spécifiques (ex. `assignments/data-analysis`).
-- Ajouter une courte phrase sur les technologies utilisées (Python, FastAPI, HTML/CSS, JavaScript).
-
-## Prochaines étapes recommandées
-- Ajouter des fichiers `README.md` individuels par assignment avec objectifs, difficulté et instructions d'exécution.
-- Ajouter des captures d'écran dans `assets/images/` pour illustrer chaque projet.
-
-## Licence
-Ce projet contient un fichier `LICENSE` (MIT).
-
----
-
-Si vous voulez, je peux :
-- committer et pousser la modification pour vous,
-- ajouter des README par assignment,
-- ou générer des badges et captures d'écran.
+```
+python3 assignments/python-basics/starter-code.py
+```
+## License
+This project includes a `LICENSE` file (MIT).
 
 
